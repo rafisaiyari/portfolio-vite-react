@@ -5,10 +5,9 @@ export const myProjects = [
     description:
       "A desktop application that predicts harmful algal blooms using machine learning, providing environmental monitoring support through a user-friendly Python-based interface.",
     subDescription: [
-     "Lead and developed a project for LLDA which is a Python desktop application with Tkinter to monitor and predict algal bloom occurrences using environmental data.",
-    "Trained and integrated a Gradient Boosting Regression Trees (GBRT) model for accurate bloom forecasting.",
-    "Implemented user authentication to ensure secure access for environmental agencies and researchers.",
-    "Designed an intuitive geospatial heatmap for visualization, and real-time model interaction.",
+      "Lead and developed a project for LLDA which is a Python desktop application with Tkinter to monitor and predict algal bloom occurrences using environmental data.",
+      "Trained and integrated a Gradient Boosting Regression Trees (GBRT) model for accurate bloom forecasting.",
+      "Designed an intuitive geospatial heatmap for visualization, and real-time model interaction.",
     ],
     href: "",
     logo: "",
