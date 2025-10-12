@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import Alert from "../components/Alert";
 import { Particles } from "../components/Particles";
 
-const Contacts = () => {
+const Contacts = ({id}) => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -49,7 +49,7 @@ const Contacts = () => {
     };
 
   return (
-    <section className="relative flex items-center c-space section-spacing">
+    <section id={id} className="relative flex items-center c-space section-spacing">
         <Particles
         className="absolute inset-0 -z-50"
         quantity={100}

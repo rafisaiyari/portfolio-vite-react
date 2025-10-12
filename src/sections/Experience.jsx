@@ -1,9 +1,9 @@
 import { Timeline } from "../components/Timeline";
 import { experiences } from "../constants";
 
-const Experience = () => {
+const Experience = ({id}) => {
   return (
-    <div className="w-full">
+    <div id={id} className="w-full">
         <Timeline data = {experiences} />
     </div>
   )

@@ -1,34 +1,72 @@
 import {useState} from 'react';
 import {motion} from 'motion/react';
 
-function Navigation() {
+function Navigation({ onLinkClick }) {
+    const handleSmoothScroll = (e, href) => {
+        e.preventDefault();
+        const element = document.querySelector(href);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        onLinkClick();
+    };
+
     return (
     <ul className="nav-ul">
         <li className="nav-li">
-            <a className="nav-link" href="#home">
+            <motion.a 
+                className="nav-link" 
+                href="#home" 
+                onClick={(e) => handleSmoothScroll(e, '#home')}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+            >
                 Home
-            </a>
+            </motion.a>
         </li>
         <li className="nav-li">
-            <a className="nav-link" href="#about">
+            <motion.a 
+                className="nav-link" 
+                href="#about" 
+                onClick={(e) => handleSmoothScroll(e, '#about')}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+            >
                 About
-            </a>
+            </motion.a>
         </li>
         <li className="nav-li">
-            <a className="nav-link" href="#work">
+            <motion.a 
+                className="nav-link" 
+                href="#work" 
+                onClick={(e) => handleSmoothScroll(e, '#work')}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+            >
                 Work
-            </a>
+            </motion.a>
         </li>
         <li className="nav-li">
-            <a className="nav-link" href="#contact">
+            <motion.a 
+                className="nav-link" 
+                href="#contact" 
+                onClick={(e) => handleSmoothScroll(e, '#contact')}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+            >
                 Contact
-            </a>
+            </motion.a>
         </li>
     </ul>
     )
 }
 const Navbar = () => {
     const[isOpen, setIsOpen] = useState(false);
+    
+    const handleLinkClick = () => {
+        setIsOpen(false);
+    };
+    
   return (
     <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
         <div className="mx-auto c-space max-w-7xl">   
@@ -47,7 +85,7 @@ const Navbar = () => {
                     />
                 </button>
                 <nav className="hidden sm:flex">
-                    <Navigation />
+                    <Navigation onLinkClick={handleLinkClick} />
                 </nav>
             </div>    
         </div>
@@ -56,10 +94,10 @@ const Navbar = () => {
             initial={{ opacity: 0, x: -10 }}
             animate={{ opacity: 1, x: 0 }}
             style={{ maxHeight: "100vh" }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.3 }}
             >
                 <nav className="pb-5">
-                    <Navigation />
+                    <Navigation onLinkClick={handleLinkClick} />
                 </nav>
             </motion.div>
         )}

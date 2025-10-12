@@ -4,10 +4,10 @@ import { Globe } from "../components/globe";
 import CopyEmailButton from "../components/CopyEmailButton";
 import { Frameworks } from "../components/Frameworks";
 
-const About = () => {
+const About = ({id}) => {
     const grid2Container = useRef();
   return (
-  <section className="c-space section-spacing">
+  <section id={id} className="c-space section-spacing">
     <h2 className="text-heading">About Me</h2>
     <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
         <div className="flex items-end grid-default-color grid-1">
