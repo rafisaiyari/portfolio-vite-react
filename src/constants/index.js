@@ -3,9 +3,9 @@ export const myProjects = [
     id: 1,
     title: "BloomSentry: An Algal Bloom Prediction System",
     description:
-      "A desktop application that predicts harmful algal blooms using machine learning, providing environmental monitoring support through a user-friendly Python-based interface.",
+      "A desktop application that predicts harmful algal blooms using machine learning, monitoring through a user-friendly interface.",
     subDescription: [
-      "Lead and developed a project for LLDA which is a Python desktop application with Tkinter to monitor and predict algal bloom occurrences using environmental data.",
+      "Lead and developed a project for LLDA which is a desktop application to monitor and predict algal bloom occurrences using environmental data.",
       "Trained and integrated a Gradient Boosting Regression Trees (GBRT) model for accurate bloom forecasting.",
       "Designed an intuitive geospatial heatmap for visualization, and real-time model interaction.",
     ],
