@@ -9,7 +9,7 @@ export const myProjects = [
       "Trained and integrated a Gradient Boosting Regression Trees (GBRT) model for accurate bloom forecasting.",
       "Designed an intuitive geospatial heatmap for visualization, and real-time model interaction.",
     ],
-    href: "",
+    href: "https://github.com/rafisaiyari/algal-bloom-prediction-system",
     logo: "",
     image: "/assets/projects/bloomsentry-ss.png",
     tags: [
@@ -41,7 +41,7 @@ export const myProjects = [
       "Developed a React-based frontend with Tailwind CSS & DaisyUI.",
       "Connected to a secure MongoDB database for user data storage.",
     ],
-    href: "",
+    href: "https://github.com/rafisaiyari/chatapp",
     logo: "",
     image: "/assets/projects/buckchat-ss.png",
     tags: [
@@ -82,7 +82,7 @@ export const myProjects = [
       "Trained and integrated a Gradient Boosting Regression Trees (GBRT) model for accurate bloom forecasting.",
       "Designed an intuitive geospatial heatmap for visualization, and real-time model interaction.",
     ],
-    href: "",
+    href: "https://github.com/rafisaiyari/breast-cancer-classifier-and-prediction-ml",
     logo: "",
     image: "/assets/projects/breastcancer-ss.png",
     tags: [
@@ -134,7 +134,7 @@ export const myProjects = [
       "Implemented secure user authentication and authorization using Spring Security with JWT tokens.",
       "Built features for account management, fund transfers, transaction history, and balance inquiries with MySQL database integration.",
     ],
-    href: "",
+    href: "https://github.com/raf-and-jan/banking-system-spring-boot",
     logo: "",
     image: "/assets/projects/ongoing-ss.png",
     tags: [
