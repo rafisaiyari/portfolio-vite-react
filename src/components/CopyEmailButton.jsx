@@ -16,19 +16,23 @@ const CopyEmailButton = () => {
 
   return (
     <div className="flex flex-col items-center gap-4">
-        {/* Gmail Button – same style */}
-        <a
+        {/* Gmail Button*/}
+        <motion.a
             href={gmailComposeLink}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={copyToClipboard}
+            whileHover={{y:-5}}
+            whileTap={{scale:1.05}}
             className="relative px-1 py-4 text-sm text-center rounded-full
             font-extralight bg-primary w-[12rem] cursor-pointer overflow-hidden"
         >
-            <p className="flex items-center justify-center gap-2">
+            <motion.p className="flex items-center justify-center gap-2"
+            >
             <img src="assets/gmail.svg" className="w-5" alt="mail icon" />
             Send an email
-            </p>
-        </a>
+            </motion.p>
+        </motion.a>
         {/* Copy Email Button */}
         <motion.button
             onClick={copyToClipboard}

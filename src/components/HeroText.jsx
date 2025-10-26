@@ -41,7 +41,7 @@ const HeroText = () => {
                     initial = "hidden"
                     animate = "visible"
                     transition= {{delay : 1.8}}>
-                    Web Solutions
+                    Software Solutions
                 </motion.p>
             </div>
         </div>
@@ -74,7 +74,7 @@ const HeroText = () => {
                         initial = "hidden"
                         animate = "visible"
                         transition= {{delay : 1.8}}
-                        >Web Solutions</motion.p>
+                        >Software Solutions</motion.p>
                 </motion.div>
             </div>
         </div>

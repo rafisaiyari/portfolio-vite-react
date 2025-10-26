@@ -11,7 +11,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/bloomsentry-ss.png",
     tags: [
       {
         id: 1,
@@ -32,18 +32,18 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "MERN ChatApp",
+    title: "BuckChat - A Real-time Chat Application",
     description:
       "A secure authentication and authorization system using Auth0 for seamless user management.",
     subDescription: [
       "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Utilized Cloudinary for Media Storage.",
+      "Developed a React-based frontend with Tailwind CSS & DaisyUI.",
+      "Connected to a secure MongoDB database for user data storage.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/buckchat-ss.png",
     tags: [
       {
         id: 1,
@@ -72,43 +72,89 @@ export const myProjects = [
       },
     ],
   },
-  /*{
+  {
     id: 3,
-    title: "Blazor Web App",
+    title: "Breast Cancer Classification and Prediction",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A desktop application that predicts harmful algal blooms using machine learning, monitoring through a user-friendly interface.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Lead and developed a project for LLDA which is a desktop application to monitor and predict algal bloom occurrences using environmental data.",
+      "Trained and integrated a Gradient Boosting Regression Trees (GBRT) model for accurate bloom forecasting.",
+      "Designed an intuitive geospatial heatmap for visualization, and real-time model interaction.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/breastcancer-ss.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "Python",
+        path: "/assets/logos/python.svg",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Discord Schedule Bot",
+    description:
+      "An automated Discord bot that manages scheduling, reminders, and event notifications for server communities.",
+    subDescription: [
+      "Developed a Discord bot using discord.py to automate scheduling and event management for server members.",
+      "Implemented features for creating reminders, recurring events, and timezone-aware notifications.",
+      "Integrated database storage for persistent schedule data and user preferences across server restarts.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/discord-ss.png",
+    tags: [
+      {
+        id: 1,
+        name: "Python",
+        path: "/assets/logos/python.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "Discord",
+        path: "/assets/logos/discord.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "MySQL",
+        path: "/assets/logos/sql.svg",
       },
     ],
-  }, */
+  },
+  {
+    id: 5,
+    title: "Banking System with Spring Boot",
+    description:
+      "A secure banking application built with Spring Boot, featuring account management, transactions, and user authentication.",
+    subDescription: [
+      "Developed a full-stack banking system using Spring Boot with RESTful APIs for core banking operations.",
+      "Implemented secure user authentication and authorization using Spring Security with JWT tokens.",
+      "Built features for account management, fund transfers, transaction history, and balance inquiries with MySQL database integration.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/ongoing-ss.png",
+    tags: [
+      {
+        id: 1,
+        name: "Spring Boot",
+        path: "/assets/logos/springboot.png",
+      },
+      {
+        id: 2,
+        name: "Java",
+        path: "/assets/logos/java.svg",
+      },
+      {
+        id: 3,
+        name: "MySQL",
+        path: "/assets/logos/sql.svg",
+      },
+    ],
+  },
 ];
 
 export const mySocials = [
