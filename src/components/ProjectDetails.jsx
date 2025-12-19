@@ -33,8 +33,7 @@ const ProjectDetails = ({title, description, subDescription, image, tags, href, 
                         href={href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
-                        >
+                        className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation">
                         View Project 
                         <img src="assets/arrow-up.svg" className="size-4" />
                     </a>

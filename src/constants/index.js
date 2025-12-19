@@ -76,11 +76,11 @@ export const myProjects = [
     id: 3,
     title: "Breast Cancer Classification and Prediction",
     description:
-      "A desktop application that predicts harmful algal blooms using machine learning, monitoring through a user-friendly interface.",
+      "A desktop application that classifies and predicts breast cancer outcomes using a Logistic Regression machine learning model through a user-friendly interface.",
     subDescription: [
-      "Lead and developed a project for LLDA which is a desktop application to monitor and predict algal bloom occurrences using environmental data.",
-      "Trained and integrated a Gradient Boosting Regression Trees (GBRT) model for accurate bloom forecasting.",
-      "Designed an intuitive geospatial heatmap for visualization, and real-time model interaction.",
+      "Led and developed a breast cancer classification using clinical diagnostic data.",
+      "Trained and integrated a Logistic Regression model to accurately classify tumors as benign or malignant.",
+      "Designed an intuitive interface for data input, model prediction, and result visualization in real time.",
     ],
     href: "https://github.com/rafisaiyari/breast-cancer-classifier-and-prediction-ml",
     logo: "",
