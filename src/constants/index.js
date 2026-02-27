@@ -1,3 +1,5 @@
+import { path } from "motion/react-client";
+
 export const myProjects = [
   {
     id: 1,
@@ -91,21 +93,27 @@ export const myProjects = [
         name: "Python",
         path: "/assets/logos/python.svg",
       },
+      {
+        id: 2,
+        name: "Jupyter Notebook",
+        path: "/assets/logos/jupyter.svg",
+      },
     ],
   },
   {
     id: 4,
-    title: "Discord Schedule Bot",
+    title: "Self-Hosted Odoo 19 with reverse proxy and SSL via Nginx",
     description:
-      "An automated Discord bot that manages scheduling, reminders, and event notifications for server communities.",
+      "A fully self-hosted Odoo 19 deployment using Docker, secured with Nginx reverse proxy and SSL, and exposed to the internet via Cloudflare Tunnel to bypass CGNAT limitations.",
     subDescription: [
-      "Developed a Discord bot using discord.py to automate scheduling and event management for server members.",
-      "Implemented features for creating reminders, recurring events, and timezone-aware notifications.",
-      "Integrated database storage for persistent schedule data and user preferences across server restarts.",
+      "Deployed Odoo 19 in a Dockerized environment with proper container orchestration and persistent volumes.",
+      "Configured Nginx as a reverse proxy with SSL termination to ensure secure HTTPS communication.",
+      "Integrated Cloudflare Tunnel to securely expose the local server to the public internet without port forwarding or static IP.",
+      "Implemented basic security hardening, firewall rules, and environment-based configuration for production readiness."
     ],
-    href: "",
+    href: "https://github.com/rafisaiyari/odoo-docker",
     logo: "",
-    image: "/assets/projects/discord-ss.png",
+    image: "/assets/projects/odoo-19.png",
     tags: [
       {
         id: 1,
@@ -114,18 +122,60 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "Discord",
-        path: "/assets/logos/discord.svg",
+        name: "Postgres",
+        path: "/assets/logos/postgresql.svg",
       },
       {
         id: 3,
-        name: "MySQL",
-        path: "/assets/logos/sql.svg",
+        name: "Nginx",
+        path: "/assets/logos/nginx.svg",
       },
+      {
+        id: 4,
+        name: "Docker",
+        path: "/assets/logos/docker.svg",
+      },
+      {
+        id: 5,
+        name: "Cloudflare",
+        path: "/assets/logos/cloudflare.svg",
+      }
     ],
   },
   {
     id: 5,
+    title: "Home Server / Self-Hosting with Debian (Old Laptop Repurposed)",
+    description:
+      "A self-hosted home server built on Debian using a repurposed laptop, providing centralized media streaming and network-attached storage for local devices.",
+    subDescription: [
+      "Installed and configured Debian Linux as a lightweight, stable server operating system.",
+      "Deployed Jellyfin for self-hosted media streaming with remote and local network access.",
+      "Configured Samba to provide cross-platform file sharing and centralized storage across devices.",
+      "Optimized power usage, storage management, and network configuration for 24/7 home server reliability."
+    ],
+    href: "",
+    logo: "",
+    image: "",
+    tags: [
+      {
+        id: 1,
+        name: "Debian",
+        path: "/assets/logos/debian.svg",
+      },
+      {
+        id: 2,
+        name: "Jellyfin",
+        path: "/assets/logos/jellyfin.svg",
+      },
+      {
+        id: 3,
+        name: "Samba",
+        path: "/assets/logos/samba.svg",
+      },
+    ],
+  },
+  {
+    id: 6,
     title: "Banking System with Spring Boot",
     description:
       "A secure banking application built with Spring Boot, featuring account management, transactions, and user authentication.",
@@ -181,17 +231,29 @@ export const experiences = [
     job: "First Program(HTML)",
     date: "2015",
     contents: [
-      "Wrote my first 'Hello, World!' program in Grade 7, marking the beginning of my journey in software development."
+      "Wrote my first 'Hello, World!' program in Grade 7, marking the beginning of my journey in software development.",
+      "Joined a robotics club in high school, where I learned basic programming concepts and developed a passion for technology.",
     ],
   },
   {
     title: "Freelance Developer",
     job: "Self-Employed",
-    date: "2024-Present",
+    date: "2024-2025",
     contents: [
       "Developed an Prediction System of Algal Blooms for our client LLDA using Python and machine learning, enhancing environmental monitoring capabilities.",
       "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
       "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+    ],
+  },
+  {
+    title: "Full Stack Developer Intern",
+    job: "Achieve Without Borders",
+    date: "2025-2026",
+    contents: [
+      "Contributed into the development of modules in various Odoo versions (8, 13, 17, 18, 19) using Python and JavaScript, enhancing the functionality of the ERP system.",
+      "Gained experience in deploying Odoo on cloud platforms and configuring reverse proxies for secure access.",
+      "Collaborated with a team of developers (both ERP and HRIS teams) to implement new features and optimize existing ones, improving overall system performance.",
+      "Developed a MCP Server for GitLab Issues, Merge Requests, and User Statistics using Python and GitLab API, providing valuable insights and automation for project management.",
     ],
   },
 ];
