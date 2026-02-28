@@ -76,27 +76,33 @@ export const myProjects = [
   },
   {
     id: 3,
-    title: "Breast Cancer Classification and Prediction",
+    title: "Home Server / Self-Hosting with Debian (Old Laptop Repurposed)",
     description:
-      "A desktop application that classifies and predicts breast cancer outcomes using a Logistic Regression machine learning model through a user-friendly interface.",
+      "A self-hosted home server built on Debian using a repurposed laptop, providing centralized media streaming and network-attached storage for local devices.",
     subDescription: [
-      "Led and developed a breast cancer classification using clinical diagnostic data.",
-      "Trained and integrated a Logistic Regression model to accurately classify tumors as benign or malignant.",
-      "Designed an intuitive interface for data input, model prediction, and result visualization in real time.",
+      "Installed and configured Debian Linux as a lightweight, stable server operating system.",
+      "Deployed Jellyfin for self-hosted media streaming with remote and local network access.",
+      "Configured Samba to provide cross-platform file sharing and centralized storage across devices.",
+      "Optimized power usage, storage management, and network configuration for 24/7 home server reliability."
     ],
-    href: "https://github.com/rafisaiyari/breast-cancer-classifier-and-prediction-ml",
+    href: "",
     logo: "",
-    image: "/assets/projects/breastcancer-ss.png",
+    image: "/assets/projects/home-server.png",
     tags: [
       {
         id: 1,
-        name: "Python",
-        path: "/assets/logos/python.svg",
+        name: "Debian",
+        path: "/assets/logos/debian.svg",
       },
       {
         id: 2,
-        name: "Jupyter Notebook",
-        path: "/assets/logos/jupyter.svg",
+        name: "Jellyfin",
+        path: "/assets/logos/jellyfin.svg",
+      },
+      {
+        id: 3,
+        name: "Samba",
+        path: "/assets/logos/samba.svg",
       },
     ],
   },
@@ -144,33 +150,27 @@ export const myProjects = [
   },
   {
     id: 5,
-    title: "Home Server / Self-Hosting with Debian (Old Laptop Repurposed)",
+    title: "Breast Cancer Classification and Prediction",
     description:
-      "A self-hosted home server built on Debian using a repurposed laptop, providing centralized media streaming and network-attached storage for local devices.",
+      "A desktop application that classifies and predicts breast cancer outcomes using a Logistic Regression machine learning model through a user-friendly interface.",
     subDescription: [
-      "Installed and configured Debian Linux as a lightweight, stable server operating system.",
-      "Deployed Jellyfin for self-hosted media streaming with remote and local network access.",
-      "Configured Samba to provide cross-platform file sharing and centralized storage across devices.",
-      "Optimized power usage, storage management, and network configuration for 24/7 home server reliability."
+      "Led and developed a breast cancer classification using clinical diagnostic data.",
+      "Trained and integrated a Logistic Regression model to accurately classify tumors as benign or malignant.",
+      "Designed an intuitive interface for data input, model prediction, and result visualization in real time.",
     ],
-    href: "",
+    href: "https://github.com/rafisaiyari/breast-cancer-classifier-and-prediction-ml",
     logo: "",
-    image: "",
+    image: "/assets/projects/breastcancer-ss.png",
     tags: [
       {
         id: 1,
-        name: "Debian",
-        path: "/assets/logos/debian.svg",
+        name: "Python",
+        path: "/assets/logos/python.svg",
       },
       {
         id: 2,
-        name: "Jellyfin",
-        path: "/assets/logos/jellyfin.svg",
-      },
-      {
-        id: 3,
-        name: "Samba",
-        path: "/assets/logos/samba.svg",
+        name: "Jupyter Notebook",
+        path: "/assets/logos/jupyter.svg",
       },
     ],
   },
